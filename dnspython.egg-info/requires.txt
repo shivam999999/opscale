@@ -1,0 +1,7 @@
+
+[DNSSEC]
+pycryptodome
+ecdsa>=0.13
+
+[IDNA]
+idna>=2.1
