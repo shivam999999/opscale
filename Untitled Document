@@ -1,6 +1,0 @@
-Again DNS comes into play, but this time the look up is slightly different. The sending mail server will look up the MX record in DNS by following a sequence along these lines:
-
-    Look up the authoritative name servers for microsoft.com
-    Query the microsoft.com name servers for the MX records
-    Look up the names of the MX records in DNS to get their IP addresses
-

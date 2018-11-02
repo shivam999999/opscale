@@ -1,0 +1,29 @@
+Exceptions,inputs and their expected workflow
+
+INPUT : Invalid JSON format:
+OUTPUT: {'status':'Invalid Json Entry'}
+
+INPUT : Wrong Key
+OUTPUT : {'Status':'invalid key'}
+
+
+INPUT : If the email ID already exists in DB
+OUTPUT : {'status':'already exists'}
+
+INPUT : Wrong syntax of Email
+OUTPUT : {'email_syntax':bad}
+
+INPUT : Incorrect DNS
+OUTPUT : {'DNS_status':'DNS does not exists'}
+
+INPUT : Wrong domain 
+OUTPUT : {'status':'wrong domain'}
+
+INPUT : If SMTP Protocol connection closes unexpectedly
+OUTPUT : {'status':'the connection closed unexpectedly'}
+
+INPUT : If Email-Id does not Exist
+OUTPUT : {'status':'Oops!! it does not exists'}
+
+INPUT : If the Email-ID exists
+OUTPUT : {'status':'Sent Async request to insert email into database '}
